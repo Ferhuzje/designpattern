@@ -16,7 +16,7 @@ public class SommerTicket extends Ticket {
 
     @Override
     public void printTicket() {
-        // TODO Auto-generated method stub
+        
         System.out.println("Ticket-Druck.");
         System.out.println("Ticket: " + super.getBezeichnung());
         System.out.println("Ticketpreis: " + super.getPreis());
