@@ -6,6 +6,8 @@ public class WinterTicket extends Ticket {
 
     public WinterTicket() {
         super();
+        super.setBezeichnung("Winter-Ticket");
+        super.setPreis(100);
     }
 
     public WinterTicket(String bezeichnung, double preis) {
