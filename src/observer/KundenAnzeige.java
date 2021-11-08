@@ -15,6 +15,7 @@ public class KundenAnzeige extends JFrame implements IBeobachterListener {
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setSize(400, 300);
         setTitle("Kunden Liste");
+        setLocation(300, 600);
 
         dlm = new DefaultListModel();
         liste = new JList(dlm);

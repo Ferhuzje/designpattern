@@ -18,6 +18,7 @@ public class KundeNeuForm extends JFrame {
         setSize(400, 300);
         setLayout(null);
         setTitle("Neuen Kunden anlegen");
+        setLocation(300, 300);
 
         lblVorname = new JLabel("Vorname");
         lblNachname = new JLabel("Nachname");

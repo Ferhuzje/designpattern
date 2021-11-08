@@ -34,6 +34,10 @@ public class Programm {
     DatenVerarbeitung dv = new DatenVerarbeitung();
     verwalter.anmelden(dv);
 
+    BriefSchreiben bs = new BriefSchreiben();
+    verwalter.anmelden(bs);
+    
+
 
 
 }
